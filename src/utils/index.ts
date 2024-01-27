@@ -7,8 +7,7 @@ export const strPad = (str: number): string => {
 };
 
 export const randomImageUrl = (): { url: string } => {
-  // const baseUrl = "https://ozgrozer.github.io/100k-faces/";
-  const baseUrl = "/";
+  const baseUrl = "/docs/";
   const firstFolder = "0";
   const secondFolder = randomInt(0, 9).toString();
   const randomFile = strPad(randomInt(0, 999));
