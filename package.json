@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "100k-faces",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy src/index.ts",
+    "format": "prettier --write '**/*.{js,ts,css,json,md}'"
+  },
+  "author": "jacksonkasi1 <jacksonkasipeacock@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "@types/node": "^20.11.7",
+    "prettier": "^1.18.2",
+    "typescript": "^5.3.3",
+    "wrangler": "3.17.1"
+  },
+  "dependencies": {
+    "hono": "^3.12.7"
+  }
+}

@@ -1,0 +1,15 @@
+name = "100k-faces"
+# type = "javascript"
+
+# account_id = ""
+# workers_dev = true
+# route = ""
+# zone_id = ""
+
+main = "src/index.ts"
+
+[site]
+# bucket = "./assets"
+bucket = "./docs"
+
+compatibility_date = "2023-08-01"
